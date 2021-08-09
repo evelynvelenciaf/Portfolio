@@ -1,5 +1,5 @@
 *   {
-    font-family: poppins;
+    font-family: Poppins;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,9 +9,19 @@ html{
     overflow-x: hidden;
 }
 
+.buttons{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .buttons .button {
+    text-decoration: none;
+    color: #000000;
+}
 .centered {
     color: #FFFF;
-    font-family: "poppins";
+    font-family: "Poppins";
     font-size: 40px;
     z-index: 1;
 }
@@ -22,7 +32,7 @@ html{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFFF;
-    font-family: "poppins";
+    font-family: "Poppins";
     font-size: 30px;
     border-radius: 30px;
 }
